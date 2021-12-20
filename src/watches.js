@@ -4,7 +4,7 @@ import "./App.css";
 function Watches(props) {
   return (
     <div className="w-full bg-black justify-center  flex h-5/6  py-20 text-white font-basic">
-<div className={`w-5/6 flex ${props.direction}`}>
+<div className={`w-5/6 flex xl:flex-row sm:flex-row xl:${props.direction}`}>
       <div className="flex w-full ">
         <img src={props.image} className="object-cover" alt="" />
       </div>
